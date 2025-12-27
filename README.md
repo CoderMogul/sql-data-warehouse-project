@@ -35,11 +35,11 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are more than welcome to use, modify, and share this project with proper attribution.
+This project is licensed under the [MIT License](LICENSE). You are more than welcome to use, modify, and share this project appropriately.
 
 ## About Me
 
-Hi there! I'm **Olumayowa Rominiyi**, also known as **CoderMogul**. I'm an IT professional and a Data & Artificial Intelligence Specialist on a mission to share knowledge and engage with other IT enthusiasts.   
+Hi there! I'm **Olumayowa Rominiyi**, also known as **CoderMogul**. I'm an IT professional and a Data & Artificial Intelligence Specialist on a mission to share knowledge and engage with other IT professionals and enthusiasts.   
 
 
 
