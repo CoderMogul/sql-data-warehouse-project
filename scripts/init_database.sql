@@ -1,3 +1,4 @@
+
 /*
 ==========================================================================================
 Create Database and Schemas
@@ -27,10 +28,12 @@ END;
 GO
 
 -- Create Database 'DataWarehouse' database
-  CREATE DATABASE DataWarehouse;
+CREATE DATABASE DataWarehouse;
+GO
 
 -- Switch to the new Datawarehouse database
 USE DataWarehouse;
+GO
 
 -- Create the Schemas for the data level.
 CREATE SCHEMA bronze; 
