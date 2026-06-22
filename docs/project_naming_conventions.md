@@ -21,6 +21,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 - **Language**: Use English for all names.
 - **Avoid Reserved Words**: Do not use SQL reserved words as object names.
 
+
 > ## **2. Table Naming Conventions**
 
 ### **Bronze Rules**
@@ -54,6 +55,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 | `fact_`     | Fact table                       | `fact_sales`                            |
 | `report_`   | Report table                     | `report_customers`, `report_sales_monthly`   |
 
+
 > ## **3. Column Naming Conventions**
 
 ### **Surrogate Keys**  
@@ -70,6 +72,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
   - `<column_name>`: Descriptive name indicating the column's purpose.  
   - Example: `dwh_load_date` → System-generated column used to store the date when the record was loaded.
  
+
 > ## **4. Stored Procedure**
 
 - All stored procedures used for loading data must follow the naming pattern:
