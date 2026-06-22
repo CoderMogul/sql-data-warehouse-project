@@ -2,7 +2,7 @@
 
 This document outlines the naming conventions used for schemas, tables, views, columns, and other objects in the data warehouse.
 
-> ## **Table of Contents**
+## **Table of Contents**
 
 1. [General Principles](#general-principles)
 2. [Table Naming Conventions](#table-naming-conventions)
@@ -15,13 +15,13 @@ This document outlines the naming conventions used for schemas, tables, views, c
 4. [Stored Procedure](#stored-procedure-nameing-conventions)
 
 ---
-## **General Principles**
+> ## **1. General Principles**
 
 - **Naming Conventions**: Use snake_case, with lowercase letters and underscores (`_`) to separate words.
 - **Language**: Use English for all names.
 - **Avoid Reserved Words**: Do not use SQL reserved words as object names.
 
-## **Table Naming Conventions**
+> ## **2. Table Naming Conventions**
 
 ### **Bronze Rules**
 - All names must start with the source system name, and table names must match their original names without renaming.
@@ -54,7 +54,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 | `fact_`     | Fact table                       | `fact_sales`                            |
 | `report_`   | Report table                     | `report_customers`, `report_sales_monthly`   |
 
-## **Column Naming Conventions**
+> ## **3. Column Naming Conventions**
 
 ### **Surrogate Keys**  
 - All primary keys in dimension tables must use the suffix `_key`.
@@ -70,7 +70,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
   - `<column_name>`: Descriptive name indicating the column's purpose.  
   - Example: `dwh_load_date` → System-generated column used to store the date when the record was loaded.
  
-## **Stored Procedure**
+> ## **4. Stored Procedure**
 
 - All stored procedures used for loading data must follow the naming pattern:
 - **`load_<layer>`**.
